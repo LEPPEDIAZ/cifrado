@@ -25,9 +25,9 @@ def decodefinal(texto, llave):
 
 
 mensajeencriptado= open("message.txt", "r+")
-mensajeencriptado = mensajeencriptado.read(10)
+mensajeencriptado = mensajeencriptado.read()
 keyread = open("key.txt", "r+")
-str = keyread.read(10)
+str = keyread.read()
 print ("Leyendo llave: ", str)
 keyread.close()
 print("--------------------------------------------")
